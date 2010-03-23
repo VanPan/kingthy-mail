@@ -28,6 +28,7 @@ namespace Kingthy.Mail.Tester
             //        Console.WriteLine(mail.Body);
             //    }
             //}
+            //client.Disconnect();
 
             IMAP4Client client = new IMAP4Client("imap.gmail.com", 993, "xxx@gmail.com", "xxx", true);
             client.IsDebugMode = true;
@@ -42,10 +43,10 @@ namespace Kingthy.Mail.Tester
                 Console.WriteLine("{0} Size = {1}", i, mailbox.GetMailSize(i));
                 if (i > 9) break;
             }
-
+            client.Disconnect();
             //Console.WriteLine(mailbox.Name);
 
-            //client.Disconnect();
+            
             //MailMessage mail = MimeParser.Parse(@"mail_1.eml");
             //Console.WriteLine(mail.Body);
             Console.ReadLine();

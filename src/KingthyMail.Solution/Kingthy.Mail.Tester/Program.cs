@@ -46,7 +46,7 @@ namespace Kingthy.Mail.Tester
             //Console.WriteLine(mailbox.Name);
 
             //client.Disconnect();
-            //MailMessage mail = MimeParser.Parse(@"F:\Temporary\Mailboxes\1.eml");
+            //MailMessage mail = MimeParser.Parse(@"mail_1.eml");
             //Console.WriteLine(mail.Body);
             Console.ReadLine();
         }

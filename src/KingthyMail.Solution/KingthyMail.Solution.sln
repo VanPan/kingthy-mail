@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kingthy.Mail", "Kingthy.Mail\Kingthy.Mail.csproj", "{D6939825-6264-4C9D-A1EA-04D79B9B9B9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kingthy.Mail.Tester", "Kingthy.Mail.Tester\Kingthy.Mail.Tester.csproj", "{37FF500B-6FB9-4B5D-AB1E-8A4E7C30F301}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6939825-6264-4C9D-A1EA-04D79B9B9B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6939825-6264-4C9D-A1EA-04D79B9B9B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6939825-6264-4C9D-A1EA-04D79B9B9B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6939825-6264-4C9D-A1EA-04D79B9B9B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FF500B-6FB9-4B5D-AB1E-8A4E7C30F301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FF500B-6FB9-4B5D-AB1E-8A4E7C30F301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FF500B-6FB9-4B5D-AB1E-8A4E7C30F301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FF500B-6FB9-4B5D-AB1E-8A4E7C30F301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
